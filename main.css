@@ -1,0 +1,91 @@
+/*reset*/
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.insidenav {
+  margin: 0 auto;
+  max-width: 1605px;
+  background: transparent;
+  border-bottom: 0;
+  padding: 4px 15px 2px;
+  position: relative;
+  height: 36px;
+}
+
+.navIcons {
+  left: 10px;
+  position: absolute;
+  justify-content: space-evenly;
+  display: inline-block;
+}
+
+.hamburgerButtton {
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  color: #333;
+  margin-right: 8px;
+  background-color: transparent;
+  font-size: 11px;
+  font-weight: 500;
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+  padding: 8px 9px 9px;
+  line-height: 11px;
+}
+
+.hamburgerImg {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  vertical-align: sub;
+}
+
+.searchButton {
+  padding: 8px 9px 9px;
+  border-radius: 4px;
+  cursor: pointer;
+  vertical-align: middle;
+  background-color: transparent;
+  color: #000;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  border: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.searchImg {
+  display: inline-block;
+  width: 16px;
+  vertical-align: sub;
+  height: 16px;
+}
+
+.spaceCosmos {
+  display: block;
+  position: absolute;
+  line-height: 19px;
+  left: 105px;
+  top: 10px;
+}
+
+.spaceLink {
+  text-decoration: none;
+  font-size: 14.25px;
+  font-weight: 700;
+  color: black;
+  line-height: 19px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
