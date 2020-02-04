@@ -187,5 +187,26 @@
 
 .mainTitleText {
   display: inline-block;
-  max-width: 383.777px;
+  max-width: 450px;
+}
+
+.mainImageContainer {
+  position: relative;
+}
+
+.mainImageStyle {
+  width: 945;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+  margin: 43px auto;
+}
+
+.mainImage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 531.56px;
+  width: 945px;
+  pointer-events: none;
 }
