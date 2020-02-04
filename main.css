@@ -155,3 +155,37 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
+.invisibleBox {
+  margin-top: 100px;
+  color: #121212;
+  font-weight: 700;
+  line-height: 0.75rem;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.875rem;
+  position: relative;
+  margin-bottom: 0.625rem;
+}
+
+.mainTitleTextHeader {
+  position: relative;
+  margin-bottom: 1rem;
+  width: 600px;
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0 20px 1rem;
+  max-width: 600px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainTitleText {
+  display: inline-block;
+  max-width: 383.777px;
+}
