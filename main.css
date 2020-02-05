@@ -14,6 +14,7 @@
   left: 0;
   z-index: 200;
   border-bottom: 1px solid #e2e2e2;
+  background-color: white;
 }
 
 .insidenav {
@@ -202,11 +203,32 @@
   margin: 43px auto;
 }
 
-.mainImage {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 531.56px;
-  width: 945px;
-  pointer-events: none;
+.mainImageStyle img {
+  width: 70%;
+  height: 100%;
+  position: relative;
+  max-height: 100%;
+  left: 15.2%;
+}
+
+.mainImgFooterContainer {
+  margin-left: 15.2%;
+  max-width: 720px;
+}
+
+.mainImgFooter {
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", tiems, serif;
+}
+
+.copyrightContainer {
+  font-size: 0.81rem;
+  display: inline;
+  color: #888;
+  font-family: nyt-imperial, georgia, "times new roman", tiems, serif;
+  line-height: 1.125rem;
+  letter-spacing: 0.01em;
 }
