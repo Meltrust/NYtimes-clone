@@ -1180,7 +1180,6 @@
 
 .bottom-comments-button-container {
   display: inline;
-  width: 330px;
   color: rgb(153, 153, 153);
   margin-right: 16px;
   max-width: 600px;
@@ -1210,8 +1209,13 @@
 
 .more-articles {
   display: flex;
-  width: 100%;
-  box-sizing: border-box;
+  box-sizing: content-box;
+  padding-left: 3%;
+  padding-right: 3%;
+  max-width: 1200px;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .more-in-space,
@@ -1220,6 +1224,10 @@
   margin: 2em 1em;
   padding-top: 1em;
   box-sizing: border-box;
+}
+
+.more-in-space {
+  margin-left: 0;
 }
 
 .more-in-space h3,
@@ -1279,4 +1287,45 @@
   list-style: none;
   border-top: 1px solid rgb(196, 196, 196);
   padding: 1em 0;
+}
+
+.bottom-site-index-container {
+  background-color: white;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.bottom-site-index {
+  padding: 0;
+}
+
+.bottom-site-index-header {
+  display: flex;
+  flex-flow: row;
+}
+
+.bottom-nytimes-logo {
+  display: block;
+  height: 44px;
+  width: 184px;
+}
+
+.goto-homepage {
+  margin: 18px 0 0 auto;
+}
+
+.goto-homepage-link {
+  color: #567b95;
+  font-family: nyt-franklin;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
 }
