@@ -12,7 +12,7 @@
   </head>
   <body>
     <nav class="navbar">
-      <section class="insidenav">
+      <div class="insidenav">
         <div class="navIcons">
           <button class="hamburgerButtton">
             <svg class="hamburgerImg" viewBox="0 0 16 16">
@@ -47,20 +47,14 @@
           </svg>
         </a>
         <div class="subsLoginButtons">
-          <a
-            class="subscribeLink"
-            href="https://www.nytimes.com/subscription?campaignId=797YR"
-          >
+          <div class="subscribeLink">
             <button class="subscribeButton">Subscribe Now</button>
-          </a>
-          <a
-            class="loginLink"
-            href="https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi"
-          >
+          </div>
+          <div class="loginLink">
             <button class="loginButton">Log In</button>
-          </a>
+          </div>
         </div>
-      </section>
+      </div>
     </nav>
     <article class="mainArticle">
       <p class="invisibleBox"></p>
@@ -111,7 +105,7 @@
           </div>
           <ul class="dateAndIconsContainer">
             <li class="dateBullet">
-              <time class="articleDate">March 17, 2014</time>
+              <span class="articleDate">March 17, 2014</span>
             </li>
 
             <li class="socialIconsBullet">
@@ -548,7 +542,6 @@
               title="YouTube Video"
               src="https://www.youtube.com/embed/ZlfIVEy_YOA"
               allowfullscreen=""
-              frameborder="0"
             ></iframe>
           </div>
           <figcaption class="professorVideoCaptionContainer">
@@ -790,12 +783,12 @@
           </div>
         </div>
       </section>
-      <section>
+      <div>
         <div class="small-text-bottom-container">
           A version of this article appears in print on
-          <time class="articleDate" datetime="2014-03-18T04:00:00.000Z">
+          <span class="articleDate">
             March 18, 2014
-          </time>
+          </span>
           , Section A, Page 1 of the New York edition with the headline: Space
           Ripples Reveal Big Bang’s Smoking Gun
           <span>
@@ -903,7 +896,7 @@
             </ul>
           </div>
         </nav>
-      </section>
+      </div>
     </article>
     <div>
       <section class="more-articles">
