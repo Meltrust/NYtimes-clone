@@ -160,7 +160,7 @@
   position: relative;
   margin-bottom: 0.625rem;
 }
-/*Text header*/
+
 .mainTitleTextHeader {
   position: relative;
   margin-bottom: 1rem;
@@ -182,7 +182,6 @@
   max-width: 450px;
 }
 
-/*main image*/
 .mainImageContainer {
   position: relative;
 }
@@ -225,7 +224,6 @@
   letter-spacing: 0.01em;
 }
 
-/*Main article header*/
 .articleHeaderContainer {
   margin-bottom: 20px;
   color: #121212;
@@ -247,8 +245,6 @@
   width: 100%;
   display: flex;
   align-items: center;
-
-  /*remember to align this*/
 }
 
 .articleAuthor {
@@ -588,7 +584,6 @@
 .MFA {
   margin-left: auto;
   margin-right: auto;
-
   margin: 25px auto;
   font-family: nyt-franklin;
   font-weight: 700;
@@ -853,7 +848,7 @@
   font-size: 12px;
   line-height: 17px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
   margin: 0;
   font-style: normal;
   box-sizing: border-box;
