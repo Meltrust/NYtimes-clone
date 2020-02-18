@@ -444,7 +444,7 @@
 
 .bookmarkButton {
   background-color: rgb(255, 255, 255);
-  left: 0px;
+  left: 0;
   position: relative;
   top: 2px;
   cursor: pointer;
@@ -479,7 +479,7 @@
   margin-left: 2px;
   min-width: 24px;
   overflow: visible;
-  padding: 0px 0px 4px;
+  padding: 0 0 4px;
   position: relative;
   text-transform: uppercase;
   margin: 0;
@@ -529,6 +529,7 @@
   margin-right: 0;
   width: 600px;
 }
+
 .firstParagraphs p {
   margin-left: 0;
   margin-right: 0;
@@ -597,7 +598,7 @@
 .MFAtop {
   border-bottom: 1px solid rgb(204, 204, 204);
   width: 72px;
-  margin: 0px auto 18px;
+  margin: 0 auto 18px;
 }
 
 .MFAlogin {
@@ -608,7 +609,7 @@
 .MFAbottom {
   border-bottom: 1px solid rgb(204, 204, 204);
   width: 72px;
-  margin: 18px auto 0px;
+  margin: 18px auto 0;
 }
 
 .secondAsideColumn {
@@ -628,7 +629,7 @@
   font-weight: 700;
   color: rgb(0, 0, 0);
   border-bottom: 1px solid rgb(226, 226, 226);
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 15px;
   padding-bottom: 12px;
   font-size: 14px;
@@ -650,10 +651,10 @@
 }
 
 .firstPickImg {
-  padding-bottom: 0px;
+  padding-bottom: 0;
   display: block;
   width: 75px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .firstPickImg img {
@@ -664,10 +665,10 @@
 
 .firstPickText {
   width: calc(100% - 85px);
-  margin: auto 0px auto 10px;
+  margin: auto 0 auto 10px;
   font-weight: 500;
   border-bottom: medium none;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   font-family: nyt-cheltenham-small, georgia, "times new roman";
   font-size: 14px;
   line-height: 17px;
@@ -677,6 +678,7 @@
 .secondPick {
   margin-bottom: 15px;
 }
+
 .secondPickLink {
   height: 100%;
   flex-direction: row;
@@ -687,10 +689,10 @@
 }
 
 .secondPickImg {
-  padding-bottom: 0px;
+  padding-bottom: 0;
   display: block;
   width: 75px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .secondPickImg img {
@@ -701,10 +703,10 @@
 
 .secondPickText {
   width: calc(100% - 85px);
-  margin: auto 0px auto 10px;
+  margin: auto 0 auto 10px;
   font-weight: 500;
   border-bottom: medium none;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   font-family: nyt-cheltenham-small, georgia, "times new roman";
   font-size: 14px;
   line-height: 17px;
@@ -714,6 +716,7 @@
 .thirdPick {
   margin-bottom: 15px;
 }
+
 .thirdPickLink {
   height: 100%;
   flex-direction: row;
@@ -724,10 +727,10 @@
 }
 
 .thirdPickImg {
-  padding-bottom: 0px;
+  padding-bottom: 0;
   display: block;
   width: 75px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .thirdPickImg img {
@@ -738,10 +741,10 @@
 
 .thirdPickText {
   width: calc(100% - 85px);
-  margin: auto 0px auto 10px;
+  margin: auto 0 auto 10px;
   font-weight: 500;
   border-bottom: medium none;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   font-family: nyt-cheltenham-small, georgia, "times new roman";
   font-size: 14px;
   line-height: 17px;
@@ -879,6 +882,7 @@
   font-family: arial, helvetica, sans-serif;
   width: 700px;
 }
+
 .inflationSectionSpacer {
   content: "";
   border: none;
@@ -959,6 +963,7 @@
   align-items: center;
   display: flex;
 }
+
 .professorVideoContainer {
   width: 600px;
   margin: 43px auto;
@@ -1013,11 +1018,11 @@
 }
 
 .professorVideoCredit2 {
-  border: 0px none;
+  border: 0 none;
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   width: 1px;
 }
@@ -1147,7 +1152,7 @@
   line-height: 1rem;
   width: calc(100% - 40px);
   max-width: 600px;
-  margin: 0px auto 1em;
+  margin: 0 auto 1em;
   color: rgb(102, 102, 102);
 }
 
@@ -1170,7 +1175,7 @@
   color: rgb(153, 153, 153);
   margin-right: 16px;
   max-width: 600px;
-  padding: 0px 1rem 0px 0px;
+  padding: 0 1rem 0 0;
 }
 
 .bottom-comments-button {
@@ -1188,7 +1193,7 @@
   line-height: 1.5rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px 0px;
+  padding: 5px 0;
   text-transform: uppercase;
   width: 100%;
   cursor: pointer;
