@@ -3,7 +3,7 @@
 Positioning elements demonstration using HTML5 AND CSS3 by building a replica of a New York Times article page.
 
 
-![ny times project screenshot](https://user-images.githubusercontent.com/57421823/74714211-ba214e80-51ef-11ea-9c06-1b288bfe5f3f.png)
+![ny times project screenshot](https://user-images.githubusercontent.com/57421823/74715611-606e5380-51f2-11ea-997f-2627d3faac37.png)
 
 # What it does
 
