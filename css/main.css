@@ -163,7 +163,6 @@
 
 .mainTitleTextHeader {
   position: relative;
-  margin-bottom: 1rem;
   width: 600px;
   color: #121212;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
@@ -227,7 +226,6 @@
 .articleHeaderContainer {
   margin-bottom: 20px;
   color: #121212;
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
   max-width: 600px;
@@ -244,7 +242,6 @@
   margin-bottom: 15px;
   width: 100%;
   display: flex;
-  align-items: center;
 }
 
 .articleAuthor {
@@ -383,10 +380,6 @@
   align-content: center;
 }
 
-.twitterItem a {
-  text-decoration: none;
-}
-
 .mailIcon {
   display: inline-block;
   vertical-align: middle;
@@ -410,8 +403,6 @@
 .shareButton {
   background: transparent;
   display: inline-block;
-  height: 20px;
-  width: 20px;
   background-color: #eee;
   border: 1px #eee solid;
   border-radius: 100%;
@@ -452,7 +443,6 @@
 }
 
 .commentsItem {
-  margin-right: 0;
   list-style: none;
   color: #999;
   display: inline;
@@ -476,7 +466,6 @@
   font-weight: 500;
   height: 25px;
   line-height: 1rem;
-  margin-left: 2px;
   min-width: 24px;
   overflow: visible;
   padding: 0 0 4px;
@@ -583,10 +572,8 @@
 }
 
 .MFA {
-  margin-left: auto;
-  margin-right: auto;
   margin: 25px auto;
-  font-family: nyt-franklin;
+  font-family: helvetica, arial, sans-serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 19px;
@@ -625,7 +612,7 @@
 }
 
 .editorsPicks {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-weight: 700;
   color: rgb(0, 0, 0);
   border-bottom: 1px solid rgb(226, 226, 226);
@@ -645,7 +632,6 @@
   height: 100%;
   flex-direction: row;
   display: flex;
-  flex-direction: row;
   text-decoration: none;
   color: black;
 }
@@ -669,7 +655,7 @@
   font-weight: 500;
   border-bottom: medium none;
   padding-bottom: 0;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   line-height: 17px;
   color: rgb(51, 51, 51);
@@ -683,7 +669,6 @@
   height: 100%;
   flex-direction: row;
   display: flex;
-  flex-direction: row;
   text-decoration: none;
   color: black;
 }
@@ -707,7 +692,7 @@
   font-weight: 500;
   border-bottom: medium none;
   padding-bottom: 0;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   line-height: 17px;
   color: rgb(51, 51, 51);
@@ -721,7 +706,6 @@
   height: 100%;
   flex-direction: row;
   display: flex;
-  flex-direction: row;
   text-decoration: none;
   color: black;
 }
@@ -745,7 +729,7 @@
   font-weight: 500;
   border-bottom: medium none;
   padding-bottom: 0;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   line-height: 17px;
   color: rgb(51, 51, 51);
@@ -812,7 +796,6 @@
   max-width: 100%;
   font-size: 1.25rem;
   line-height: 1.875rem;
-  margin-bottom: 0.9375rem;
   font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   color: #000;
   margin-bottom: 2px;
@@ -981,7 +964,6 @@
 }
 
 .professorVideoCaptionContainer {
-  margin-left: 0;
   color: #666;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   margin: 10px 20px 0 0;
@@ -989,8 +971,6 @@
 }
 
 .professorVideoCaption {
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
   margin-right: 7px;
   color: #666;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
@@ -1179,8 +1159,6 @@
 }
 
 .bottom-comments-button {
-  padding: 0;
-  border: 0;
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
@@ -1226,7 +1204,7 @@
 .most-popular-container h3 {
   font-size: 1rem !important;
   line-height: 1.375rem !important;
-  font-family: nyt-franklin, helvetica, arial, sans-serif !important;
+  font-family: helvetica, arial, sans-serif !important;
   font-weight: 700 !important;
   padding: 1em 0 !important;
   box-sizing: border-box;
@@ -1429,7 +1407,6 @@
 .main-footer-container {
   font-size: 11px;
   text-align: center;
-  padding-bottom: 25px;
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 3% 9px;
@@ -1463,12 +1440,12 @@
   line-height: 8px;
 }
 
-.main-footer-list-items:first-child {
-  border-left: none;
-}
-
 .main-footer-list-items {
   display: inline-block;
   line-height: 20px;
   padding: 0 10px;
+}
+
+.main-footer-list-items:first-child {
+  border-left: none;
 }
