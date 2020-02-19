@@ -16,7 +16,8 @@ Displays a New York Times web page replica hand made by me.  Makes use of `style
 
 ## Author
 
-https://github.com/Meltrust
+- Github: [@meltrust](https://github.com/meltrust)
+- Linkedin: [meltrust](https://www.linkedin.com/in/meltrust/)
 
 ## Live Demo
 
