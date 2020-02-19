@@ -1415,11 +1415,15 @@
 .main-footer-nav {
   border-top: 1px solid #ebebeb;
   padding-top: 9px;
+  display: flex;
+  align-items: baseline;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
 }
 
 .main-nyt-copyright {
   list-style: none;
-  margin: 0 0 15px;
   padding: 0;
   display: inline-block;
 }
