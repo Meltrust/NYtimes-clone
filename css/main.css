@@ -1407,7 +1407,7 @@
 .main-footer-container {
   font-size: 11px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 70px auto;
   max-width: 1200px;
   padding: 0 3% 9px;
 }
@@ -1450,4 +1450,106 @@
 
 .main-footer-list-items:first-child {
   border-left: none;
+}
+
+.fixed-footer-container {
+  position: fixed;
+  height: 64px;
+  bottom: 0.1px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(51, 51, 51);
+}
+
+.fixed-footer-container-button {
+  height: 65px;
+  padding-bottom: 5px;
+  border-radius: 0px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: helvetica, arial, sans-serif;
+  width: 100%;
+}
+
+.fixed-footer-container-button-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.fixed-footer-container-button-content-textcontainer {
+  text-align: left;
+  width: 100%;
+  font-family: helvetica, arial, sans-serif;
+  padding-left: 190px;
+}
+
+.fixed-footer-container-button-content-textcontainer-align {
+  height: 65px;
+  margin-top: 0;
+  margin-right: 70px;
+  margin-bottom: 0;
+  margin-left: calc((100% - 600px) / 2);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  inset: 0px;
+}
+
+.fixed-footer-container-button-content-textcontainer-font {
+  font-size: 15px;
+  line-height: 17px;
+  opacity: 1;
+}
+
+.fixed-footer-container-button-content-expandcontainer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.fixed-footer-container-button-content-expandcontainer-align {
+  margin: 0px 15px 0px 0px;
+  display: block;
+}
+
+.fixed-footer-container-button-content-expandcontainer-text {
+  cursor: pointer;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: helvetica, arial, sans-serif;
+  letter-spacing: 0.24px;
+  height: 55px;
+  line-height: calc(58px);
+  white-space: nowrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.fixed-footer-container-button-content-expandcontainer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 55px;
+  height: 55px;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  border: none;
+  line-height: normal;
+}
+
+.fixed-footer-container-button-content-expandcontainer-button-icon {
+  transform: rotate(-90deg);
+  height: 15px;
+  margin: auto;
+  width: 15px;
 }
