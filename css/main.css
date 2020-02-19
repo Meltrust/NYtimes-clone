@@ -1464,7 +1464,7 @@
 .fixed-footer-container-button {
   height: 65px;
   padding-bottom: 5px;
-  border-radius: 0px;
+  border-radius: 0;
   cursor: pointer;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -1478,7 +1478,7 @@
   height: 100%;
   max-width: 1200px;
   margin: auto;
-  padding: 0px;
+  padding: 0;
   justify-content: space-between;
 }
 
@@ -1499,7 +1499,7 @@
   justify-content: center;
   position: absolute;
   flex-direction: column;
-  inset: 0px;
+  inset: 0;
 }
 
 .fixed-footer-container-button-content-textcontainer-font {
@@ -1515,7 +1515,7 @@
 }
 
 .fixed-footer-container-button-content-expandcontainer-align {
-  margin: 0px 15px 0px 0px;
+  margin: 0 15px 0 0;
   display: block;
 }
 
@@ -1529,8 +1529,8 @@
   height: 55px;
   line-height: calc(58px);
   white-space: nowrap;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .fixed-footer-container-button-content-expandcontainer-button {
