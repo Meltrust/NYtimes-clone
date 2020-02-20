@@ -1499,7 +1499,10 @@
   justify-content: center;
   position: absolute;
   flex-direction: column;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .fixed-footer-container-button-content-textcontainer-font {
