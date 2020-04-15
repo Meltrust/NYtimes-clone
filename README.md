@@ -18,6 +18,8 @@ Displays a New York Times web page replica hand made by me.  Makes use of `style
 
 - Github: [@meltrust](https://github.com/meltrust)
 - Linkedin: [meltrust](https://www.linkedin.com/in/meltrust/)
+- Contact me: original.mtapia@outlook.com
+
 
 ## Live Demo
 
@@ -28,6 +30,10 @@ Displays a New York Times web page replica hand made by me.  Makes use of `style
 To get a local copy up and running follow these simple example steps.
 - Clone the project unto your local machine
 - Navigate into `index.html` file and run on the browser
+
+## Future Features:
+
+- Implement responsive design.
 
 ## 🤝 Contributing
 
